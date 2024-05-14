@@ -5,7 +5,7 @@
     margin-top: 200px;
     width: 600px;
     background: #fff;
-    padding-bottom: 30x;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -73,26 +73,56 @@
     cursor: pointer;
 }
 
-.submit-container {
+.button-container {
     display: flex;
     gap: 30px;
-    margin: 60px auto;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .submit {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 220px;
+    width: 200px;
     height: 59px;
     color: #fff;
     background: #4c00b4;
     border-radius: 50px;
     font-size: 19px;
     font-weight: 700;
-    cursor: pointer;
+    cursor: default;
 }
+
 .gray {
     background: #EAEAEA;
     color: #676767;
+}
+
+.gray:hover {
+    background-color: #b9b9b9;
+    color: #000000;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.final-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    background: #000000;
+    color: #fff;
+    width: 220px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.final-submit:hover {
+    border-radius: 20px;
 }
